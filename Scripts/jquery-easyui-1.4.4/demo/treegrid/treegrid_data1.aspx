@@ -1,0 +1,47 @@
+[{
+	"id":1,
+	"name":"C",
+	"children":[{
+		"id":2,
+		"name":"Program Files",
+        "state":"closed",
+		"children":[{
+			"id":21,
+			"name":"Java",
+			"state":"closed",
+			"children":[{
+				"id":211,
+				"name":"java.exe"
+			},{
+				"id":212,
+				"name":"jawt.dll"
+			}]
+		},{
+			"id":22,
+			"name":"MySQL",
+			"children":[{
+				"id":221,
+				"name":"my.ini"
+			},{
+				"id":222,
+				"name":"my-huge.ini"
+			},{
+				"id":223,
+				"name":"my-large.ini"
+			}]
+		}]
+	},{
+		"id":3,
+		"name":"eclipse",
+		"children":[{
+			"id":31,
+			"name":"eclipse.exe"
+		},{
+			"id":32,
+			"name":"eclipse.ini"
+		},{
+			"id":33,
+			"name":"notice.html"
+		}]
+	}]
+}]

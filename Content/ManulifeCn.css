@@ -1,0 +1,1513 @@
+﻿/*!!! the comment below cannot be remove !!!*/
+/**/
+/**/
+
+
+/* Overall Page */
+html, form
+{
+    height: 100%;
+}
+
+form
+{
+    margin: 0;
+    display: inline; 
+}
+
+img
+{
+    border	:0;
+}
+
+p
+{
+    margin: 0px;
+    color: #333333;
+    font-size: 12px;
+}
+
+p em
+{
+    font-size: 12px;
+}
+
+h1
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: #005027;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #005027;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h4
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #005027;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+body
+{
+    background-color: #107b53;
+    margin: 0px;
+    background-image: url('Images/bg_fade.GIF');
+    background-repeat: repeat-x;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #333333;
+}
+
+ul
+{
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    list-style-type: disc;
+    /*list-style-image: url(Images/bullet.gif);*/
+}
+
+ol
+{
+    padding-left: 15px;
+    margin-left: 15px;
+    list-style-type: decimal;
+}
+
+hr
+{
+    color: #E3D9BD;
+}
+
+
+input
+{
+    color: #000000;
+    font-size: 12px;
+    font-weight: normal;
+    
+}
+
+textarea
+{
+    color: #333333;
+    font-size: 12px;
+}
+
+select
+{
+    color: #333333;
+    font-size: 12px;
+}
+
+.master
+{
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.topControls
+{
+    text-align: right;
+    height: 75px;
+    font-size: 17px;
+    color: #f5f2e5;
+    padding-bottom: 10px;
+    font-family: 黑体;
+}
+
+.topTitle
+{
+    text-align: left;
+    height: 100px;
+    font-size: 20px;
+    color: #f5f2e5;
+    padding-bottom: 10px;
+    font-family: 黑体;
+}
+
+.topControls a:link, .topControls a:active, .topControls a:visited
+{
+    color: #f5f2e5;
+}
+
+.topControls a:hover
+{
+    color: #ffffff;
+}
+
+.mainContainer
+{
+    background-color: white;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.mainContentLeft
+{
+    width: 150px;
+    background-color: #FEF2E5;
+    color: #005027;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px; 
+}
+
+.mainContentLeft ul
+{   font-size: 12px;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.mainContentLeft li a
+{
+    text-decoration: none;
+    line-height: 12px;
+    display: inline-block;
+    padding: 10px 0px 10px 25px;
+}
+.mainContentLeft li a:link
+{
+    color: #333;
+    display: block;
+    background: url(Images/left_nav_off.gif) no-repeat;
+}
+.mainContentLeft li a:visited
+{
+    color: #333;
+    display: block;
+    background: url(Images/left_nav_off.gif) no-repeat;
+}
+.mainContentLeft li a:active
+{
+    color: #005027;
+    font-weight: bold;
+    background: url(Images/left_nav_on.gif) no-repeat;
+}
+.mainContentLeft li a:hover
+{
+    color: #005027;
+    font-weight: bold;
+    background: url(Images/left_nav_on.gif) no-repeat;
+}
+.mainContentLeft li a#current
+{
+    color: #005027;
+    font-weight: bold;
+    background: url(Images/left_nav_on.gif) no-repeat;
+}
+.mainContentLeft li a#open
+{
+    color: #005027;
+    font-weight: bold;
+    background: url(Images/left_nav_selected.gif) no-repeat;
+}
+.mainContentLeft li a#on
+{
+    padding-left: 30px;
+    color: #005027;
+    font-weight: bold;
+    background: url(Images/subleft_nav_on.gif) repeat-y;
+}
+.mainContentLeft li a#on a:visited
+{
+    color: #333;
+    text-indent: 5px;
+    font-weight: bold;
+    background: url(Images/subleft_nav_off.gif) no-repeat;
+}
+.mainContentLeft li a#on a:active
+{
+    color: #005027;
+    text-indent: 5px;
+    font-weight: bold;
+    background: url(Images/subleft_nav_on.gif) no-repeat;
+}
+.mainContentLeft li a#on a:hover
+{
+    color: #005027;
+    text-indent: 5px;
+    font-weight: bold;
+    background: url(Images/subleft_nav_on.gif) no-repeat;
+}
+.mainContentLeft li a#off
+{
+    padding-left: 30px;
+    background: url(Images/subleft_nav_off.gif) repeat-y;
+}
+.mainContentLeft li a#off a:visited
+{
+    color: #333;
+    text-indent: 5px;
+    font-weight: bold;
+    background: url(Images/subleft_nav_off.gif) no-repeat;
+}
+.mainContentLeft li a#off a:active
+{
+    color: #005027;
+    text-indent: 5px;
+    font-weight: bold;
+    background: url(Images/subleft_nav_on.gif) no-repeat;
+}
+.mainContentLeft li a#off a:hover
+{
+    color: #005027;
+    text-indent: 5px;
+    font-weight: bold;
+    background: url(Images/subleft_nav_on.gif) repeat-y;
+}
+
+.mainContent
+{
+    padding-bottom: 30px;
+    padding-left: 0px;
+}
+
+.mainContent p
+{
+    font-size: 12px;
+    color: #333333;
+}
+
+.userControlParagraph
+{
+    font-size: 12px;
+    color: #333333;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.mainContent a
+{
+    font-size: 12px;
+    color: #1B8644;
+}
+
+.mainContent a:visited
+{
+    font-size: 12px;
+    color: #1B8644;
+}
+
+.mainContent a:hover
+{
+    font-size: 12px;
+    color: #264465;
+}
+
+.breadcrumbContainer
+{
+    background-color: white;
+    font-size: 10px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: #1B8644;
+}
+
+.breadcrumbContainer a
+{
+    font-size: 10px;
+    color: #666666;
+}
+
+
+.breadcrumbContainer a:visited
+{
+    font-size: 10px;
+    color: #666666;
+}
+
+.breadcrumbContainer a:hover
+{
+    font-size: 10px;
+    color: #264465;
+}
+
+.subTitleContent
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.errorMessageContent
+{
+    font-size: 12px;
+    color: Red;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.MandatoryInputIndicator /* the "red star" */
+{
+    font-size: 12px;
+    color: Red;
+}
+
+.loginpageLeftPanel
+{
+    vertical-align: top;
+    border: 1px solid #e3d9bd;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.loginpageRightPanel
+{
+    width: 330px;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    height: 100%;
+    background-color: #F5F5DC;
+    color: #333333;
+    font-size: 12px;
+}
+
+.loginpageSectionGap
+{
+    width: 10px;
+}
+
+.loginpageRightPanel UL
+{
+    list-style-image: url(Images/tick_green.gif);
+}
+
+.contentFooter
+{
+    background-image: url(Images/footer-bg.GIF);
+    background-repeat: repeat-x;
+    height: 40px;
+    width: 880px;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+.contentFooter a:link, .contentFooter a:visited, .contentFooter a:active
+{
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.contentFooter a:hover
+{
+    font-size: 12px;
+    color: #F5F2E5;
+}
+
+.pageFooter
+{
+    font-size: 12px;
+    color: #f5f2e5;
+    padding-top: 10px;
+    text-align: center;
+}
+.pageFooter a:link, .pageFooter a:visited, .pageFooter a:active
+{
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.pageFooter a:hover
+{
+    font-size: 12px;
+    color: #f5f2e5;
+}
+
+/* style for navigation menu bar */
+.mainNav
+{
+    font-size: 13px;
+    font-weight: normal;
+    /* display: block;*/
+    vertical-align: middle;
+    width: 880px;
+    height: 40px;
+    background-image: url('Images/top_bg.jpg');
+    background-repeat: repeat-x;
+    position:relative  ;
+    z-index:1001;
+}
+.mainNav ul
+{
+    /* all lists */
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.mainNav .headerNav
+{
+    /* all list items */
+    float: left;
+    position: relative;
+    width:95px;
+    /* width:105px;*/
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.mainNav li ul
+{
+    /* second-level lists */
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    float: left;
+}
+
+.mainNav li > ul
+{
+    /* to override top and left in browsers other than IE, which will position to the top right of the containing li, rather than bottom left */
+    top: auto;
+    left: auto;
+    list-style: none;
+}
+.mainNav li:hover > ul, li.over > ul
+{
+    /* lists nested under hovered list items */
+    display: block;
+    list-style: none;  
+}
+
+.headerNav a:link, .headerNav a:visited
+{
+    width: 118px;
+    height: 40px;
+    text-align: center;
+    background-image: url('Images/top_bg.jpg');
+    background-repeat: repeat-x;
+    color: #ffffff; /*text-transform: capitalize;*/
+    text-decoration: none;
+    display: block;
+    line-height: 30px;
+    list-style: none;
+    font-size:14px
+}
+
+.headerNav a#current
+{
+    float: left;
+    position: relative;
+    width: 106px;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    height: 40px;
+    text-align: center;
+    background-image: url('Images/top_bg_on.jpg');
+    background-repeat: repeat-x;
+    color: #333333;
+    text-decoration: none;
+    display: block;
+    line-height: 30px;
+    list-style: none;
+}
+
+/* fix for IE6 */
+/*
+* html .headerNav a:link, * html .headerNav a:visited {
+  width: expression((documentElement.clientWidth <106) ? "106px" : "98%" );
+}
+*/
+
+.headerNav a:hover, .headerNav a:active
+{
+    width: 118px;
+    height: 40px;
+    text-align: center;
+    background-color:#F5F2E5;
+    background-image: url('Images/top_bg.jpg');
+    color: #333333;
+    text-decoration: none;
+    display: block;
+    line-height: 30px;
+    list-style: none;
+}
+
+.headerNavActive a:link, .headerNavActive a:visited, .headerNavActive a:hover, .headerNavActive a:active
+{
+    width: 162px;
+    height: 30px;
+    text-align: center;
+    background-image: url('Images/top_bg_on.jpg');
+    background-repeat: repeat-x;
+    color: #333333;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    line-height: 30px;
+    list-style: none;
+}
+
+.childNav
+{
+    background-color:#F5F2E5;
+    color: #333333;
+    list-style: none;
+    z-index:1001;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.childNav a:link, .childNav a:visited
+{
+    background-image:none;
+    background-color:#F5F2E5;
+    color: #333333;
+    /*width:125px;*/ /*20201976*/
+    width:145px;  /*20201976*/
+    height: 30px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    padding-left: 10px;
+    /*padding-right: 10px;*/
+    font-size: 12px;
+    font-weight: normal;
+    white-space:nowrap;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    list-style: none;
+}
+
+.childNav a:hover, .childNav a:active
+{
+    background-image:url('Images/top_bg_on.jpg');
+    background-color:#FFFFFF;
+    color: #005027;
+    /*width:125px;*/  /*20201976*/
+    width:145px;  /*20201976*/
+    height: 30px;
+    text-align: left;
+    display: block;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    list-style: none;
+    /*text-decoration: underline;*/
+}
+
+/* Multi-level Menu --> */
+.childNav a, .childNav li
+{
+    float:left;
+}
+
+.childNav > li ul
+{
+   display:none;
+   margin-left: 100%; /* all browsers */ 
+   *margin-left: 0%; /* IE7 and below */ 
+   background-color: #CEC19F;
+   position: absolute;
+}
+/* <-- Multi-level Menu */
+
+image
+{
+    border: 0;
+}
+
+.homePage p
+{
+    font: Arial;
+    font-size: 12px;
+    color: #666666;
+}
+
+/* Validation summary */
+.ValidationSummaryStyle
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: Red;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    width: 400px;
+}
+
+.ValidationSummaryStyle ul
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style-type: disc;
+    list-style-image: url(Images/bullet.gif);
+}
+
+
+/* Grid View  */
+
+.GridTableStyle
+{
+    width: 100%;
+    border: 1px solid #93B8B0;
+    border-collapse: separate;
+    border-spacing: 0px;
+    font-size: 12px;
+}
+
+.GridViewHeadStyle
+{
+    padding: 5px;
+    height: 20px;
+    font-weight: bold;
+    color: #005027;
+    background-color: #93B8B0;
+    border: 0px solid #ffffff;
+    border-right-width: 1px;
+}
+
+.GridViewStyle
+{
+    padding: 2px;
+    height: 20px;
+    background-color: #ffffff;
+    border: 0px solid #DFEAE7;
+    border-right-width: 1px;
+}
+
+.GridViewAlternativeStyle
+{
+    padding: 2px;
+    height: 20px;
+    background-color: #DFEAE7;
+    border: 0px solid #ffffff;
+    border-right-width: 1px;
+}
+
+.GridViewStyle a:link, .GridViewStyle a:visited, .GridViewAlternativeStyle a:link, .GridViewAlternativeStyle a:visited
+{
+    color: #1B8644;
+}
+
+.GridViewStyle a:hover, .GridViewAlternativeStyle a:hover
+{
+    color: #264465;
+}
+
+.GridViewOnMouseOverStyle
+{
+    padding: 5px;
+    border: solid 0px #E3D9BD;
+    background-color: #E3D9BD;
+    height: 25px;
+    cursor: pointer;
+}
+
+.GridTableStyle2
+{
+    width: 100%;
+    border: 1px solid #ffffff;
+    border-collapse: separate;
+    border-spacing: 0px;
+    font-size: 12px;
+}
+
+.GridViewHeadStyle2
+{
+    padding: 5px;
+    height: 20px;
+    font-weight: bold;
+    color: #695457;
+    background-color: #F9F4DF;
+    border: 0px solid #ffffff;
+    border-right-width: 1px;
+}
+
+.GridViewStyle2
+{
+    padding: 2px;
+    height: 20px;
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+    border-right-width: 1px;
+}
+
+.GridViewAlternativeStyle2
+{
+    padding: 2px;
+    height: 20px;
+    background-color: #F9F8F5;
+    border: 0px solid #ffffff;
+    border-right-width: 1px;
+}
+
+.GridViewStyle2 a:link, .GridViewStyle2 a:visited, .GridViewAlternativeStyle2 a:link, .GridViewAlternativeStyle2 a:visited
+{
+    color: #1B8644;
+}
+
+.GridViewStyle2 a:hover, .GridViewAlternativeStyle2 a:hover
+{
+    color: #264465;
+}
+
+.GridViewOnMouseOverStyle2
+{
+    padding: 5px;
+    border: solid 0px #E3D9BD;
+    background-color: #E3D9BD;
+    height: 25px;
+    cursor: pointer;
+}
+
+.PlusMinusSignStyle a
+{
+    font-size: 12px;
+}
+
+.SelectedPagerStyle
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: Black;
+}
+
+.PagerStyle
+{
+    font-size: 12px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.PagerStyle a:link, .PagerStyle a:visited
+{
+    color: #333333;
+}
+
+.PagerStyle a:hover
+{
+    color: #264465;
+}
+
+.PagerStyle a:active
+{
+    color: #333333;
+    font-weight: bold;
+}
+
+
+/* Form View */
+.FormViewStyle
+{
+    padding: 5px;
+    width: 500px;
+    font-size: 12px;
+}
+
+.FormViewStyle td
+{
+    border: solid 1px white;
+}
+
+.FormViewLabelStyle
+{
+    width: 50%;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #E3D9BD;
+    vertical-align: top;
+}
+
+.FormViewValueStyle
+{
+    width: 50%;
+    background-color: #E3D9DD;
+}
+
+/*Table View( 4 columns with labels and values)*/
+
+.TableViewStyle
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px solid #DFEAE7;
+    background-color: #DFEAE7;
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+
+.TableViewLabelStyle, .TableViewValueStyle
+{
+    color: #005027;
+    text-align: left;
+    height: 15px;
+    vertical-align: top;
+}
+
+.TableViewLabelStyle
+{
+    /*width: 20%;*/
+    padding: 3px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    vertical-align: top;
+    background-color: white;
+}
+
+.TableViewValueStyle
+{
+    /*width: 30%;*/
+    border: 1px solid #7f9db9;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    text-align: left;
+    background-color: #F4F4F4;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+/*Page subtitles*/
+.SubTitle1
+{
+    color: Black;
+    font-size: 13.5px;
+    font-weight: bold;
+}
+
+/* Submit Form */
+.FormSubmitTableStyle
+{
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px solid #DFEAE7;
+    background-color: #DFEAE7;
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+
+.FormSubmitLabelStyle, .FormSubmitValueStyle
+{
+    color: #005027;
+    text-align: left;
+    height: 15px;
+}
+
+.FormSubmitLabelStyle
+{
+    padding: 3px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.FormSubmitValueStyle
+{
+    text-align: left;
+    padding: 1px;
+    padding-left: 1px;
+}
+
+.FormSubmitInstructionStyle
+{
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+.FormSubmitButtonStyle
+{
+    background: white url(Images/bt_bg.jpg) top;
+    height: 20px;
+    color: white;
+    border-spacing: 0px;
+    border-color: Black;
+    border-width: 0px;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    cursor:pointer;
+    outline:none;
+}
+
+.FormSubmitButtonStyle2
+{
+    background: white url(Images/btn_stg_on.jpg) top;
+    height: 30px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    border-spacing: 0px;
+    border-color: Black;
+    border-width: 0px;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+.FormSubmitButtonDisabledStyle2 
+{
+    background: white url(Images/btn_stg_off.jpg) top;
+    height: 30px;
+    width: 150px;
+    color: white;
+    border-spacing: 0px;
+    border-color: Black;
+    border-width: 0px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.FormSearchButtonStyle
+{
+    background: white url(Images/bt_bg.jpg) top;
+    height: 20px;
+    color: white;
+    border-spacing: 0px;
+    border-color: Black;
+    border-width: 0px;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+.DefaultButtonStyle
+{
+    background: white url(Images/bt_bg.jpg) top;
+    height: 20px;
+    color: white;
+    border-spacing: 0px;
+    border-color: Black;
+    border-width: 0px;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+input[type="button"][disabled].FormSubmitButtonStyle , input[type="button"].disabled.FormSubmitButtonStyle , input[disabled="disabled"].FormSubmitButtonStyle, input:disabled.FormSubmitButtonStyle,
+input[type="button"][disabled].FormSearchButtonStyle , input[type="button"].disabled.FormSearchButtonStyle , input[disabled="disabled"].FormSearchButtonStyle, input:disabled.FormSearchButtonStyle,
+input[type="button"][disabled].DefaultButtonStyle , input[type="button"].disabled.DefaultButtonStyle , input[disabled="disabled"].DefaultButtonStyle, input:disabled.DefaultButtonStyle
+{
+    background: white url(Images/bt_bg.jpg) top;
+    height: 20px;
+    color: #A0A0A0;
+    text-shadow:1px 1px 0px white;
+    border-spacing: 0px;
+    border-color: Black;
+    border-width: 0px;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.FormSubmitCompletionStyle
+{
+    font-size: 14px;
+    color: #333333;
+    text-align: left;
+}
+
+.FormSubmitFailureTextStyle
+{
+    font-size: 14px;
+    color: Red;
+    text-align: left;
+}
+
+/* style for login page*/
+.LoginStyle
+{
+    width: 400px;
+    font-size: 12px;
+    border: solid 0px #e3d9bd;
+    background-color: white;
+}
+
+.LoginStyle td
+{
+    border: 0px;
+}
+
+.LoginLabelStyle
+{
+    color: #005027;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 0px;
+    vertical-align: bottom;
+}
+
+.LoginValueStyle
+{
+    width: 75%;
+    font-size: 12px;
+    text-align: left;
+    padding-bottom: 3px;
+}
+
+.LoginInstructionStyle
+{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+.BannerContainer
+{
+    background-color: white;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+.loginpageRightPanel UL
+{
+    list-style-image: url(Images/tick_green.gif);
+}
+
+.DivisionTitle
+{   
+    background-color: #00693C;
+    border: 0px #000000 solid;
+    border-collapse: collapse;
+    border-spacing: 0px; 
+    font-size:14px;
+    font-weight:bold ;
+    color:White;
+    padding-left:10px;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+
+.DivisionBoundary
+{
+    padding:0px;  
+    border: 1px #9AA7B0 solid;
+    background-color:#ffffff;
+}
+
+/*---------Style for Tabs--------*/
+.TabSelected
+{
+    background: white url(Images/tab_bg_selected.jpg) top;
+    cursor:pointer;
+    color:White;
+    font-weight:bold;
+    font-size:12px;
+    height:22px;
+    width:110px;
+    text-align:center;
+    margin:0;
+    padding:0;
+    line-height:12px;
+    /*background-repeat:no-repeat;*/
+}
+
+.TabNotSelected
+{
+    background: white url(Images/tab_bg_off.jpg) top;
+    cursor:pointer;
+    color:#005027;
+    font-weight:bold;
+    font-size:12px;
+    height:22px;
+    width:110px;
+    text-align:center;
+    margin:0;
+    padding:0;
+    line-height:12px;
+    /*background-repeat:no-repeat;*/
+}
+
+.TabMouseOver
+{
+    background: white url(Images/tab_bg_on.jpg) top;
+    cursor:pointer;
+    color:#005027;
+    font-weight:bold;
+    font-size:12px;
+    height:22px;
+    width:110px;
+    text-align:center;
+    margin:0;
+    padding:0;
+    line-height:12px;
+    /*background-repeat:no-repeat;*/
+}
+
+.TabSelectedEApps
+{
+    background: white url(Images/tab_bg_selected_large.jpg) top;
+    color:White;
+    font-weight:bold;
+    font-size:10px;
+    height:30px;
+    width:82px;
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+
+.TabNotSelectedEApps
+{
+    background: white url(Images/tab_bg_off_large.jpg) top;
+    color:#005027;
+    font-weight:bold;
+    font-size:10px;
+    height:30px;
+    width:82px;
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+
+.TableBoundary
+{
+    padding:0px;  
+    border: 1px #93B8B0 solid;
+    background-color:#93B8B0;
+}
+
+.readonlyStyle  
+{
+    background-color:#F5F2E5;
+    border-width:1px;
+    border-color :#7f9db9;
+    border-style:solid;
+    text-transform:uppercase;
+    padding:2px;
+}
+
+.dataReviewStyle  
+{
+    background-color:#F5F2E5;
+    border-width:1px;
+    border-color :#7f9db9;
+    border-style:solid;
+    padding:2px;
+}
+
+/* Disclaimer, Legal, Privacy pages */
+.Disclaimer
+{
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+}
+
+p.DisclaimerSubTitle
+{
+	font-family: Arial;
+	font-size : 12px;
+	color: #333333; 
+	font-weight :bold;
+ 	margin-top:0px;	
+	margin-bottom:5px;
+}
+
+.AnsUnread
+{
+	color: Red; 
+}
+
+/* Short Cut */
+.ShortCutLeft
+{
+    background-color:#DFDCCC; 
+    width:150px; 
+    vertical-align:text-top;  
+    padding:10px; 
+    padding-top:20px;
+}
+
+.ShortCutRight
+{
+    background: url(images/ShortCutIcon/my_item_edge.gif) no-repeat;
+    vertical-align:text-top; 
+    padding:10px; 
+    padding-top:20px;
+}
+
+.ShortCutLeft .HeadingText
+{
+    font-weight: bold;
+    font-size: 16px; 
+    color: rgb(2, 77, 38); 
+    font-family: Arial;
+}
+
+
+
+#JT_arrow_left{
+	background-image: url(Images/arrow_left.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	z-index:101;
+	left:-12px;
+	height:23px;
+	width:10px;
+    top:-3px;
+}
+
+#JT_arrow_right{
+	background-image: url(Images/arrow_right.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	z-index:101;
+	height:23px;
+	width:11px;
+    top:-2px;
+}
+
+#JT {
+	position: absolute;
+	z-index:100;
+	border: 2px solid #CCCCCC;
+	background-color: #fff;
+}
+
+#JT_close_left{
+	background-color: #CCCCCC;
+	text-align: left;
+	padding-left: 8px;
+	padding-bottom: 5px;
+	padding-top: 2px;
+	font-weight:bold;
+}
+
+#JT_close_right{
+	background-color: #CCCCCC;
+	text-align: left;
+	padding-left: 8px;
+	padding-bottom: 5px;
+	padding-top: 2px;
+	font-weight:bold;
+}
+
+#JT_copy p{
+margin:3px 0;
+}
+
+.jTip
+{
+cursor:help;
+}
+
+#calendar
+{
+    font-size: 14px;
+    font-family: "Lucida Grande" ,Helvetica,Arial,Verdana,sans-serif;
+    width: 860px;
+    margin: 0 auto;
+}
+
+.DashboardAboveTarget
+{
+    color: Green;
+}
+
+.DashboardBelowTargetWithin10Percent
+{
+    color: Orange;
+}
+
+.DashboardBelowTarget
+{
+    color: Red;
+}
+
+
+.TabNavigation > div.content
+{
+    border-bottom: #CCC3A1 solid 1px;
+    border-left: #CCC3A1 solid 1px;
+    border-right: #CCC3A1 solid 1px;
+    border-top: #CCC3A1 solid 1px;
+    clear: left;
+    padding: 5px;
+    min-height: 400px;
+}
+
+.TabNavigation > ol
+{
+    height: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.TabNavigation > ol > li.TabItem > a
+{
+    outline: 0;
+    background: #ffffff url("images/tabs.gif");
+    display: block;
+    float: left;
+    height: 2em;
+    padding-left: 10px;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+    color: #5E574C;
+    text-decoration: none;
+}
+
+.TabNavigation > ol > li.TabItem > a:hover
+{
+    background-color: #ffffff;
+    background-position: 0 -120px;
+}
+
+.TabNavigation > ol > li.TabItem  >  a:hover span
+{
+    background-position: 100% -120px;
+}
+
+.TabNavigation > ol > li.TabItem
+{
+    float: left;
+    margin: 0 1px 0 10px;
+}
+
+.TabNavigation > ol > li.TabItem.current  >  a
+{
+    background-color: #ffffff;
+    background-position: 0 -60px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+    color: #5E574C;
+    text-decoration: none;
+}
+
+.TabNavigation > ol > li.TabItem.current > a >  span
+{
+    background-position: 100% -60px;
+}
+
+.TabNavigation > ol > li.TabItem > a > span
+{
+    background: url("images/tabs.gif") 100% 0;
+    display: block;
+    line-height: 2em;
+    padding-right: 10px;
+    width: 120px;
+    text-align: center;
+}
+
+div.loading
+{
+    background: url("images/icon_loading.gif") no-repeat center center;
+}
+
+.PageButtons > a {
+    margin:5px;
+    color: #005027;
+}
+.PageButtons > a.current{
+	font-weight:bold;
+}
+.PageStatus{
+    color: #005027;
+}
+
+.SaleSignalOn
+{
+    background: url("images/icon_bullet_on.gif") no-repeat left center;
+    padding-left: 18px;
+    color: #005027;
+    font-size: 10px;
+    cursor: pointer;
+    line-height:16px;
+}
+
+.SaleSignalOff
+{
+    background: url("images/icon_bullet_off.gif") no-repeat left center;
+    padding-left: 18px;
+    color: #000000;
+    font-size: 10px;
+    line-height:16px;
+}

@@ -1,0 +1,150 @@
+﻿.mr10{
+    margin-right: 10px;
+}
+.mt30{
+    margin-top: 20px;
+}
+
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.upload-header{
+    background:#00A758;
+    color:#fff;
+    line-height: 50px;
+    font-weight: bold;
+    font-size:16px;
+    text-align: center;
+}
+
+#uploadApp .add-doc{
+    width:95%;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom: 25px;
+}
+#uploadApp .add-doc .leb{
+    margin-bottom: 10px;
+}
+
+
+#uploadApp .add-finish{
+    width:95%;
+    margin:auto;
+    margin-bottom: 25px;
+}
+#uploadApp .add-finish .leb{
+    margin-bottom: 10px;
+}
+
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+    border:1px solid #dcdcdc;
+    
+    text-align: center;
+   
+
+} 
+table td, table th{
+    border:1px solid #dcdcdc;
+    padding:10px 10px;    
+    font-size: 14px;
+}
+
+table td{
+    font-size: 14px;
+}
+
+#uploadApp select, #uploadApp input{
+    /* -webkit-appearance:none; */
+    /* border:none;
+    background: none; */
+    background-color: none;
+    font-size: 14px;
+    border:1px solid #00A758;
+}
+#uploadApp select{
+    width: 200px;
+    height: 30px;
+}
+
+#uploadApp .textarea{
+    -webkit-appearance:none;
+    border:1px solid #00A758;
+    width: 97%;
+    padding:10px;
+    font-size:14px;
+    text-align: left;
+    min-height: 90px;
+    margin:0;
+    line-height: 24px;
+    vertical-align: top;
+    
+}
+#uploadApp .fliename{
+    
+}
+
+#uploadApp .btn-samll{
+    display: inline-block;
+    padding:3px 10px;
+    background: #00A758;
+    color:#fff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+#uploadApp .del{
+    margin-left:5px;
+}
+
+#uploadApp .view{
+    margin-right:5px;
+}
+
+#uploadApp .upload-remarks{
+    width: 95%;
+    margin: auto;
+}
+#uploadApp .remarks-leb{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#uploadApp .upload-btnzone{
+    text-align: center;
+    margin-top:30px;
+}
+#uploadApp .btn{
+    display: inline-block;
+    padding:7px 25px;
+    
+    background: #00A758;
+    color:#fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#uploadApp .save{
+    margin-right:20px;
+}
+
+#uploadApp .submit{
+    margin-left:20xp
+}
+
+#uploadApp .leb{
+    font-weight: bold;
+}
+
+
+#uploadApp .none{
+    display:none;
+}

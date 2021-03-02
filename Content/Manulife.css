@@ -1,0 +1,786 @@
+﻿/* Overall Page */
+html, form {
+	height: 100%;
+}
+
+p {
+	margin:0px;
+	font-family: Arial;
+	color: #333333;
+	font-size: 11px;
+}
+
+p em{
+	font-size:11px;
+}
+
+h1 
+{
+	font-family:Arial;
+	font-size:22px;
+	font-weight:normal;
+	color:#005027;
+ 	padding:0px;
+ 	margin-top:0px;
+ 	margin-bottom:0px;
+}
+
+h2 
+{
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	color:#000000;
+ 	margin-top:0px;	
+	margin-bottom:0px;
+}
+
+h3 
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	color:#000000;
+ 	margin-top:0px;	
+	margin-bottom:0px;
+}
+
+h4 
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	color:#005027;
+ 	margin-top:0px;	
+	margin-bottom:0px;
+}
+	
+	
+body {
+	background-color: #107b53;
+	margin: 0px;
+	background-image: url(<%=Request.ApplicationPath%>/Content/Images/bg_fade.GIF);
+	background-repeat: repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#333333;
+}
+
+ul
+{
+    PADDING-LEFT: 15px;
+	MARGIN-LEFT: 15px;
+	margin-top: 10px;
+	LIST-STYLE-TYPE: disc;
+	LIST-STYLE-IMAGE: url(<%=Request.ApplicationPath%>/Content/Images/bullet.gif);
+}
+
+ol
+{
+    PADDING-LEFT: 15px;
+	MARGIN-LEFT: 15px; 
+	list-style-type: decimal;
+}
+	
+hr
+{
+	color: #E3D9BD;
+}
+
+
+input 
+{
+	font-family: Arial;
+    color: #333333;
+	font-size: 11px;
+    width: 156px;
+}
+
+textarea 
+{
+	font-family: Arial;
+    color: #333333;
+	font-size: 11px;
+}
+
+select 
+{
+	font-family: Arial;
+    color: #333333;
+	font-size: 11px;
+}
+
+.master {
+	width: 880px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+}
+
+.topControls {
+	text-align: right;
+	height: 75px;
+}
+
+.topControls {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #f5f2e5;
+	padding-bottom: 10px;
+}
+
+.topControls a:link, .topControls a:active, .topControls a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #f5f2e5;
+}
+
+.topControls a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.mainContainer{
+	background-color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:left;
+	margin-left:0px;
+}
+
+.mainContentLeft {
+	width:200px;
+	BACKGROUND-COLOR: #f5f2e5;
+}
+
+.mainContent {
+	PADDING-BOTTOM: 30px; 
+	padding-left: 0px;
+}
+
+.mainContent p
+{
+	font-family:Arial;
+	font-size:11px;
+	color:#333333;
+}
+
+.userControlParagraph
+{
+	font-family:Arial;
+	font-size:11px;
+	color:#333333;
+	margin-bottom:20px;
+	margin-top:5px;
+}
+
+.mainContent a 
+{
+	font-family:Arial;
+	font-size:11px;
+	color:#1B8644;
+}
+
+.mainContent a:visited
+{
+	font-family:Arial;
+	font-size:11px;
+	color:#1B8644;
+}
+
+.mainContent a:hover
+{
+	font-family:Arial;
+	font-size:11px;
+	color:#264465;
+}
+
+.breadcrumbContainer
+{
+	background-color:white;
+	font-family: Arial;
+	font-size: 10px;
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:0px;
+	color:#1B8644;
+}
+
+.breadcrumbContainer a
+{
+	font-family: Arial;
+	font-size: 10px;
+	color: #1B8644;
+}
+
+
+.breadcrumbContainer a:visited
+{
+	font-family: Arial;
+	font-size: 10px;
+	color: #264465;
+}
+
+.breadcrumbContainer a:hover
+{
+	font-family: Arial;
+	font-size: 10px;
+	color: #1B8644;	
+}
+.subTitleContent
+{
+	margin-top:30px;	
+	margin-bottom:25px;	
+}
+
+.errorMessageContent
+{
+	font-size: 12px;
+	font-weight:bold;
+	color: Red;
+	padding-top: 0px;
+    padding-bottom: 0px;
+    margin:0px;
+}
+
+.loginpageLeftPanel
+{
+	border:1px solid #e3d9bd; 
+	padding:5px;
+}
+
+.loginpageRightPanel
+{
+	width:300px;
+	padding-top: 0px;
+	PADDING-RIGHT: 30px;	
+	PADDING-LEFT: 10px; 
+	PADDING-BOTTOM: 30px; 
+	HEIGHT: 100%;
+	BACKGROUND-COLOR: #F5F5DC;
+	color: #333333; /*#1B8644;*/
+	FONT-SIZE: 12px;
+}
+
+.loginpageSectionGap
+{
+	width:10px;
+}
+
+.loginpageRightPanel UL
+{
+	LIST-STYLE-IMAGE: url(<%=Request.ApplicationPath%>/Content/Images/tick_green.gif); 
+}
+
+.contentFooter {
+	background-image: url(<%=Request.ApplicationPath%>/Content/Images/footer-bg.GIF);
+	background-repeat: repeat-x;
+	height: 40px;
+	width: 880px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+}
+.contentFooter a:link, .contentFooter a:visited, .contentFooter a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.contentFooter a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #F5F2E5;
+}
+
+.pageFooter {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #f5f2e5;
+	padding-top: 10px;
+	/*background-color: #107b53;*/
+	text-align: center;
+}
+.pageFooter a:link, .pageFooter a:visited, .pageFooter a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.pageFooter a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #f5f2e5;
+}
+
+.mainNav {
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	display: table-cell;
+	vertical-align: middle;
+	width: 880px;
+	height: 40px;
+	background-image: url(<%=Request.ApplicationPath%>/Content/Images/nav-bg.GIF);
+	background-repeat: repeat-x;
+}
+.mainNav ul {
+	/* all lists */
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.mainNav li {
+	/* all list items */
+	float: left;
+	position: relative;
+	width: 146px;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+.mainNav li ul {
+	/* second-level lists */
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 0;
+}
+
+.mainNav li > ul {
+	/* to override top and left in browsers other than IE, which will position to the top right of the containing li, rather than bottom left */
+	top: auto;
+	left: auto;
+}
+.mainNav li:hover ul, li.over ul {
+	/* lists nested under hovered list items */
+	display: block;
+}
+
+.headerNav a:link, .headerNav a:visited {
+	width: 136px;
+	height: 40px;
+	text-align: center;
+	background-image: url(<%=Request.ApplicationPath%>/Content/Images/nav-bg.gif);
+	background-repeat: repeat-x;
+	color: #ffffff;
+	text-transform: capitalize;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+}
+
+.headerNav a:hover, .headerNav a:active {
+	width: 136px;
+	height: 40px;
+	text-align: center;
+	background-image: url(<%=Request.ApplicationPath%>/Content/Images/nav-bg-hover.gif);
+	background-repeat: repeat-x;
+	color: #333333;
+	text-transform: capitalize;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+}
+.headerNavActive a:link, .headerNavActive a:visited, .headerNavActive a:hover, .headerNavActive a:active  {
+	width: 162px;
+	height: 40px;
+	text-align: center;
+	background-image: url(<%=Request.ApplicationPath%>/Content/Images/nav-bg-hover.gif);
+	background-repeat: repeat-x;
+	color: #333333;
+	text-transform: capitalize;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+}
+
+.childNav a:link, .childNav a:visited {
+	background-color: #f5f2e5;
+	color: #264465;
+	background-image: none;
+	height: 100%;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	padding-left: 10px;
+	font-size: 12px;
+	font-weight: normal;
+	width: 120%;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+}
+
+.childNav a:hover, .childNav a:active {
+	background-color: #cce6dc;
+	background-image: none;
+	color: #264465;
+	height: 100%;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	padding-left: 10px;
+	font-size: 12px;
+	font-weight: normal;
+	width: 120%;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+}
+
+.image{
+border:0;
+}
+
+.homePage p
+{
+	font: Arial;
+	font-size: 12px;
+	color: #666666;
+}	
+
+.logoutPage
+{
+	font: Arial;
+	font-size: 12px;
+	color: #666666;	
+}
+
+
+/* Validation summary */
+.ValidationSummaryStyle
+{
+	font-size: 11px;
+	font-weight: bold;
+	color: Red;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	width: 400px;
+}
+
+.ValidationSummaryStyle ul
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	LIST-STYLE-TYPE: disc;
+	LIST-STYLE-IMAGE: url(<%=Request.ApplicationPath%>/Content/Images/bullet.gif);
+}
+
+
+/* Grid View  */
+.GridViewStyle th
+{
+	font-size: 11px;
+	padding: 5px;
+	border: solid 0px #004A2A;
+	font-size: 12px;
+	color: white;
+	/*background-color: #006233;*/
+	background-color:#004A2A;
+}
+
+.GridViewStyle td
+{
+	font-size: 11px;
+	padding: 5px;	
+	border: solid 0px #DFEAE7;
+	height: 25px;		
+    background-color : #DFEAE7;
+    border-bottom:solid 1px #FFFFFF; 	  
+}
+
+.GridViewStyle a:link, .GridViewStyle a:visited
+{
+	color: #333333;
+}
+
+.GridViewStyle a:hover
+{
+	color: #264465;
+}
+
+.GridViewOnMouseOverStyle
+{
+	padding: 5px;
+	border: solid 0px #E3D9BD;
+	background-color:#E3D9BD; 
+	height: 25px;
+	cursor: pointer;
+}
+
+.GridViewLevel2Style th
+{
+	padding: 5px;
+	border: solid 1px #DFEAE7;
+	font-size: 11px;
+	color: #333333;
+	background-color: #DFEAE7; /*#E3E9BD; */	
+	height: 12px;
+}
+
+.GridViewLevel2Style td
+{
+	padding: 5px;
+	font-size: 11px;
+	border: solid 1px #DFEAE7;
+	height: 12px;
+	background-color: #FFFFFF;
+}
+
+.GridViewEmptyData td
+{
+	padding: 5px;
+	border: solid 1px #DFEAE7;
+	font-size: 11px;
+	color: #333333;
+	background-color: #DFEAE7; 
+}
+
+.AlternatingRowStyle
+{
+    /* background-color: #ECE6D1; */
+}
+
+.PlusMinusSignStyle a
+{
+	font-family:Courier New;
+	font-size:12px;
+}
+
+.PagerStyle
+{
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.PagerStyle a:link, .PagerStyle a:visited
+{
+	color: #333333;
+}
+
+.PagerStyle a:hover
+{
+	color: #264465;
+}
+
+.PagerStyle a:active
+{
+	color: #333333;
+	font-weight: bold;
+}
+
+
+/* Form View */
+.FormViewStyle 
+{
+	padding: 5px;
+	width: 500px;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.FormViewStyle td
+{
+	border: solid 1px white;	
+}
+
+.FormViewLabelStyle
+{
+	width: 50%;
+	font-weight:bold;
+	font-size : 11px;
+	background-color:#E3D9BD;
+    vertical-align:top;
+}
+
+.FormViewValueStyle
+{
+	width: 50%;
+	background-color:#E3D9DD;
+}
+
+/*Table View( 4 columns with labels and values)*/
+
+.TableViewStyle 
+{
+	padding: 5px;
+	width: 100%;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.TableViewLabelStyle
+{	
+	font-weight:bold;
+	font-size : 11px;
+	background-color:#FFFFFF;
+    text-align: left;
+    vertical-align:top;
+}
+
+.TableViewValueStyle
+{	
+	font-size: 11px;
+	background-color:#FFFFFF;
+	vertical-align:top;
+}
+
+/*General Table*/
+
+.TableHeader
+{
+	background-color:Green;
+	color: White;
+    font-family :Arial;
+    width : 543px;
+    font-weight : bold;    
+}
+
+.TableAlternateRow
+{
+	background-color:#F5F5DC; /*same as beige */
+}
+
+.TableRowTitle
+{
+	font-family : Arial;
+	font-weight : bold; 
+}
+
+/*Page subtitles*/
+.SubTitle1
+{
+	font-family : Arial;
+	color: Black;
+	font-size: 13.5px;
+	font-weight: bold;
+}
+
+/* Submit Form */
+.FormSubmitStyle
+{
+	width: 600px;
+	font-family: Arial;
+	font-size: 11px;
+	border: solid 0px #e3d9bd;
+	background-color: white;
+}
+
+.FormSubmitStyle td
+{
+	border: 0px;
+}
+
+.FormSubmitLabelStyle
+{
+	width: 25%;
+	font-weight:bold;	
+	font-size : 11px;
+	/*background-color:white;*/ /*#E3D9BD;*/
+	text-align:left;
+	vertical-align:top;
+	padding:3px;
+    padding-left:0px;
+}
+
+.FormSubmitValueStyle
+{
+	width: 75%;
+	font-size : 11px;
+	/*background-color:white;	*/
+	text-align:left;
+	padding: 3px;	
+}
+
+.FormSubmitInstructionStyle
+{
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+	padding-top:0px;
+	padding-left:0px;
+	padding-bottom:20px;
+}
+
+.FormSubmitButtonStyle
+{
+	font-family:Arial;
+	font-size:11px;
+	border:solid 1px #E3D9BD;
+	float:left;
+	text-align:center;
+ 	padding:3px;
+    margin-top:10px;
+}
+
+.FormSearchButtonStyle
+{
+	font-family:Arial;
+	font-size:11px;
+	border:solid 1px #E3D9BD;
+	float:left;
+	text-align:center;
+	padding:3px;
+}
+
+.FormSubmitCompletionStyle
+{
+	font-size:14px;
+	color: #333333; 
+	text-align:left;
+}
+
+.FormSubmitFailureTextStyle
+{
+	font-size:14px;
+	color:Red;
+	text-align:left;
+}
+
+/* Disclaimer, Legal, Privacy pages */
+.Disclaimer
+{
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+}
+
+p.DisclaimerSubTitle
+{
+	font-family: Arial;
+	font-size : 12px;
+	color: #333333; 
+	font-weight :bold;
+ 	margin-top:0px;	
+	margin-bottom:5px;
+}
+
+.ProgressStyle
+{
+	font-family : Arial;
+	color: #005027;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.FieldValidatorStyle
+{
+	font-family : Arial;
+	font-size: 11px;
+	color: #333333;
+}
+
+.NotesStyle
+{
+	font-family : Arial;
+	font-size: 11px;
+	color: #333333;
+}

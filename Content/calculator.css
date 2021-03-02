@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+#calculator {
+    width: 205px;
+    height: 330px;
+    background-color: black;
+    margin:0;
+    position: relative;
+}
+#calculator .zonedark {
+    width: 100%;
+    height: 75px;
+    background-color: black;
+}
+#calculator .zonedark .expression {
+	color:#ccc;
+	width:95%;
+	height:15px;
+	margin:5px;
+	display:inline-block;
+	text-align:left;
+	font-size:1em;
+	font-family:calibri;
+	white-space:nowrap;
+	overflow:hidden;
+}
+#calculator .zonedark .zoneresult {
+	color:white;
+	width:95%;
+	height:50px;
+	margin:5px;
+	padding-right:5px;
+	display:inline-block;
+	text-align:right;
+	font-size:2em;
+	font-family:calibri;
+}
+#calculator .zoneopt {
+	width: 100%;
+	margin: 0 1px;
+}
+#calculator .zoneopt div {
+	float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0 1px 1px 0;
+    position: relative;
+}
+#calculator .zoneopt div.lastrow {
+    margin-bottom: 0;
+}
+#calculator .zoneopt div.lastcolumn {
+    margin-right: 0;
+}
+#calculator .zoneopt div:before {
+    content: ".";
+    visibility: hidden;
+	/*font-family: Helvetica, Arial, Verdana, sans-serif;*/
+	font-family: "黑体", sans-serif;
+	font-size: 1.5em;
+	color: white;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#calculator .zoneopt div.clear:before {
+    content: "C";
+    visibility: visible;
+}
+#calculator .zoneopt div.divide:before {
+    content: "/";
+    visibility: visible;
+}
+#calculator .zoneopt div.multiply:before {
+    content: "*";
+    visibility: visible;
+}
+#calculator .zoneopt div.minus:before {
+    content: "-";
+    visibility: visible;
+}
+#calculator .zoneopt div.plus:before {
+    content: "+";
+    visibility: visible;
+}
+#calculator .zoneopt div.egal:before {
+    content: "=";
+    visibility: visible;
+}
+#calculator .zoneopt div.backspace:before {
+    content: "←";
+    visibility: visible;
+    font-size: 1em;
+}
+#calculator .zoneopt div.one:before {
+    content: "1";
+    visibility: visible;
+}
+#calculator .zoneopt div.two:before {
+    content: "2";
+    visibility: visible;
+}
+#calculator .zoneopt div.three:before {
+    content: "3";
+    visibility: visible;
+}
+#calculator .zoneopt div.four:before {
+    content: "4";
+    visibility: visible;
+}
+#calculator .zoneopt div.five:before {
+    content: "5";
+    visibility: visible;
+}
+#calculator .zoneopt div.six:before {
+    content: "6";
+    visibility: visible;
+}
+#calculator .zoneopt div.seven:before {
+    content: "7";
+    visibility: visible;
+}
+#calculator .zoneopt div.eight:before {
+    content: "8";
+    visibility: visible;
+}
+#calculator .zoneopt div.nine:before {
+    content: "9";
+    visibility: visible;
+}
+#calculator .zoneopt div.zero:before {
+    content: "0";
+    visibility: visible;
+}
+#calculator .zoneopt div.point:before {
+    content: ".";
+    visibility: visible;
+}
+#calculator .zoneopt div.wide {
+    width: 101px;
+}
+#calculator .zoneopt div.high {
+    height: 101px;
+    float: right;
+    right: 1px;
+}
+#calculator .zoneopt .gray {
+    background-color: #d6d7d9;
+}
+#calculator .zoneopt .gray:hover {
+    background-color: #cbcbcb;
+}
+#calculator .zoneopt .orange {
+    background-color: #f78d11;
+}
+#calculator .zoneopt .orange:hover {
+    background-color: #e48310;
+}

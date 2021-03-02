@@ -1,0 +1,889 @@
+﻿.ml5{
+    margin-left:5px;
+}
+
+.playBox-div button{
+    margin: 5px 2px 3px 2px;
+    min-width:241px;
+}
+
+.dd-des{
+    color:#00A758;
+    margin-top:-20px;
+    margin-bottom: 20px;
+}
+
+.audiospace{
+    /* padding-top:50px; */
+}
+
+.fileinput-button{
+    position:absolute;
+    right: 0px;
+    top:0px;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+    font-size: 100px;
+}
+.demo-upload-list {
+    display: inline-block;
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    margin-right: 4px;
+}
+.demo-upload-list-cover {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.6);
+}
+.demo-upload-list-cover:hover{
+    opacity: 1;
+}
+.demo-upload-list-cover:hover i {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 2px;
+}
+.comment_titlecss {
+    font-size: 20px;
+    clear: both;
+}
+.comment_btncontainer {
+    text-align: center;
+    margin:0 auto;
+    font-size: 40pt;
+    width: 100%;
+    clear: both;
+    position: absolute;
+    bottom: 10;
+}
+#leftView{
+    margin-top:5px;
+    margin-left:10px;
+}
+
+.signImagecss {
+    -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
+    overflow: scroll;
+    /* border: 1px solid rgb(229, 229, 229) */
+    border:1px solid #00A758;
+    margin-top:5px;
+}
+.tmpcanvascss {
+    border:1px solid #00A758;
+    margin-top:10px;
+}
+.btn_orange {
+    font-size: 20pt;
+    color: #fef4e9;
+    border: solid 1px #da7c0c;
+    background: #f78d1d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+}
+div.background-loading {
+    z-index:99999;
+    position: fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+    background: #333333 !important;
+}
+div.loading-indicator {
+    position: fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background: url("../Content/images/icon_loading.gif") no-repeat center center;
+    z-index:100000;
+}
+
+.camera-img{
+    display: inline-block;
+    width:70px;
+    height:58px;
+    background: url("../Content/images/camera.png") no-repeat 0 0;
+    background-size:cover;
+}
+
+
+
+
+/*  在线投保  pillar   */
+.ivu-carousel-arrow.left,  .ivu-carousel-arrow.right
+{
+    background:#00A758;
+    opacity: 0.5;
+   }
+.ivu-carousel-arrow{
+   background-color: rgba(31,45,61,0.5);
+}
+
+.ivu-icon-ios-camera:before{
+font-size:20px;
+}
+.pop-tips{
+width: 100%;
+text-align: left;
+position: absolute;
+top: 65px;
+z-index: 10000000000;
+color: red;
+font-size: 18px;
+left: 15px;
+}
+#accont-box .ivu-modal-close,#accont-box .ivu-icon-ios-close{ display:none;}
+
+.state-text{
+   color:#00A758;
+   margin-left:10px;
+}
+.statePop{
+   width:100%;
+   height:100%;
+   position:absolute;
+   top:0;
+   left:0;
+   background:rgba(255,255,255,0.5);
+   z-index:10;
+   border-radius:10px;
+}
+
+.pzBox
+{
+   position:relative;
+     display:inline-flex;
+       text-align: center;
+border: 1px solid #20b977;
+width: 200px;
+height: 140px;
+    border-radius:5px;
+        justify-content: center;
+align-items: center;
+flex-wrap:wrap;
+overflow: hidden;
+   }
+
+ .pzBox .icon{
+   width:60px;
+    align-self:flex-end;
+ }    
+ .pzBox .camera-text{
+   align-self:auto;
+   color:#888;
+ }
+  
+   
+  
+  .imgShow
+  {
+          position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+z-index:6;
+      }
+  .imgShow img
+  {
+         width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+      }
+.imgShow .img-cover
+{
+   width: 100%;
+height: 100%;
+background: #000;
+opacity: 0.6;
+top: 0;
+left: 0;
+   
+   }
+          
+.imgShow .img-cover .del
+{
+   color: #fff;
+font-size: 35px;
+margin-top: 41px;
+
+}          
+      
+<!--  ui优化  -->
+
+.ivu-card{
+   border-radius: 0;
+}
+.ivu-card:hover{
+box-shadow:none;
+border:none;
+}
+
+.ivu-card-bordered{
+border:none;
+}
+
+#autographCard .ivu-card-head{
+border-color:#00A758;
+padding:0;
+margin-bottom:46px;
+}
+
+#autographCard .ivu-card-head .tit-all{
+background:#00A758;
+color:#fff;
+padding:5px 15px;
+margin-left:3px;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+font-size:16px;
+font-weight:normal;
+}
+
+#autographCard .ivu-card-head p, .ivu-card-head-inner{
+overflow:inherit;
+height:auto;
+line-height:26px;
+}
+
+#autographCard .ivu-collapse{
+background:#fff;
+}
+
+#autographCard .ivu-collapse>.ivu-collapse-item>.ivu-collapse-header{
+border:none;
+background:#fff;
+padding-left:0;
+
+}
+
+#autographCard .ivu-collapse>.ivu-collapse-item.ivu-collapse-item-active>.ivu-collapse-header{
+position:relative;
+display:flex;
+align-items: center;
+
+background:#fff;
+border:none;
+border-radius:15px;
+height:0;
+}
+#autographCard .ivu-collapse>.ivu-collapse-item{
+border:none;
+}
+
+
+#autographCard .ivu-collapse-header .tit{
+   position: absolute;
+display: inline-block;
+color: #00A758;
+font-size: 16px;
+top: -20px;
+background: #fff;
+width:75px;
+text-align: left;
+
+}
+
+#autographCard .ivu-collapse-header .tit1{
+    width: 310px;
+}
+
+#autographCard .ivu-collapse-header .tit-point{
+   position: absolute;
+width: 5px;
+height: 5px;
+border-radius: 50%;
+background: #00A758;
+top: -3px;
+left: 75px;
+}
+
+#autographCard .ivu-collapse-header .tit-point1{
+    left:305px;
+}
+
+#autographCard .ivu-collapse-header .tit-tips{
+    position: absolute;
+    top: -20px;
+    color:#00A758;
+}
+
+#autographCard .ivu-collapse-header .tit-tips1{
+    position: absolute;
+    top: -20px;
+    left:68px;
+}
+
+
+#autographCard .ivu-collapse-header .tit-line{
+width:93%;
+
+display:inline-block;
+height:1px;
+background:#00A758;
+margin-left:75px;
+}
+
+#autographCard .ivu-card-body{
+padding:0;
+}
+#autographCard .ivu-collapse{
+border:none;
+border-radius:0;
+}
+
+
+
+#autographCard .ivu-icon-ios-arrow-forward{
+display:none;
+}
+
+
+
+#autographCard .ivu-checkbox-group{
+
+margin-top:-18px;
+}
+#autographCard .sider-line{
+position:absolute;
+top:0;
+right:0;
+height:100%;
+width:1px;
+background:#00A758;
+
+}
+#autographCard .ivu-collapse-content{
+padding:0;
+background:none;
+margin-top:35px;
+}
+
+#autographCard .ivu-collapse-content>.ivu-collapse-content-box{
+padding-top:0;
+}
+
+#autographCard .bottom-line{
+position:absolute;
+bottom:0;
+left:0;
+height:1px;
+width:100%;
+background:#00A758;
+box-sizing: border-box;
+}
+
+#autographCard .eSignature-list
+{
+overflow:hidden;
+margin-top: 5px;
+
+}    
+#autographCard .eSignature-list li
+{
+position: relative;    
+list-style:none;
+margin-top:15px;
+float:left;
+width:50%;
+height: 23px;
+}        
+
+#autographCard .eSignature-list li button
+{
+background:none;
+color:#00A758;
+border:none;
+padding:0;
+margin-left:5px;
+
+}   
+#autographCard .eSignature-list li button:hover
+{
+   background:none;
+color:#00A758;
+border:none;
+padding:0;
+margin-left:5px;
+
+}
+
+#autographCard .eSignature-list li .ivu-btn{
+    font-size:14px;
+}
+
+#autographCard .eSignature-list li button:active
+{
+   background:none;
+color:#00A758;
+border:none;
+padding:0;
+margin-left:5px;
+} 
+
+.dzqm
+{
+overflow:hidden;
+}
+.dzqm li{
+width:45%;
+float:left;
+list-style:none;
+}
+
+#autographCard .ivu-collapse>.ivu-collapse-item{
+border:1px solid #00A758;
+border-left:none;
+margin-bottom:50px;
+border-radius:10px;
+border-bottom-left-radius: 0;
+border-top-left-radius: 0;
+}
+
+#autographCard .ivu-collapse>.ivu-collapse-item:first-child{
+border-top: 1px solid #00A758;
+}
+
+.esign-box{
+   display: inline-flex;
+width:45%;
+border:1px solid #00A758;
+margin-right:30px;
+   justify-content: center;
+align-items: center;
+height:130px;
+vertical-align: top;
+
+border-radius:10px;
+margin-bottom:10px;
+
+}
+
+.jzr-span{
+display: flex;
+border:1px solid #00A758;
+justify-content: center;
+align-items: center;
+height:120px;
+width:95%;
+vertical-align: top;
+
+border-radius:10px;
+}
+
+.photo-show-box{
+   display: flex;
+justify-content: center;
+align-items: center;
+width:100%;
+height:120px;
+border:1px solid #00A758;
+border-radius:10px;
+margin-left:5%;
+margin-right:5%;
+}
+.pz-box{
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+.mt10{
+margin-top:10px;
+}
+
+.ivu-card-head p .color-green{
+color:rgb(25, 190, 107);
+}
+
+
+.mt15{
+    margin-top:15px;
+}
+.color-green{
+    color:#00A758;
+}
+
+
+.mt30{
+margin-top:30px;
+}
+
+.orange{
+background:#00A758;
+border-color:#00A758;
+}
+.orange:hover{
+background:#00A758;
+border-color:#00A758;
+}
+
+big {
+font-size:30pt;
+font-weight:normal;
+}
+
+@media screen  and (min-width: 768px){
+    big {
+        font-size:30pt;
+        font-weight:normal;
+    }
+    .ml30b{
+        margin-left:30%;
+    }
+}
+
+@media screen  and (max-width: 768px){
+    big {
+        font-size:20pt;
+        font-weight:normal;
+    }
+    .ml30b{
+        margin-left:0;
+    }
+}
+
+
+
+#single_scrollbar_up{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    background: url("../Content/images/arrow_left.png") no-repeat 0 0;
+    background-size:cover;
+    overflow: hidden;
+    box-shadow: none;   
+    border:none;
+    margin-right:30px;
+}
+#single_scrollbar_down{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    background: url("../Content/images/arrow_right.png") no-repeat 0 0;
+    background-size:cover;
+    overflow: hidden;
+    box-shadow: none;   
+    border:none;
+    margin-left:30px;
+}
+
+.ivu-btn-primary{
+
+    background-color: #00A758;
+    border-color: #00A758;
+}
+
+#BankAuto .ivu-modal-body{
+    font-size: 14px;
+}
+
+#BankAuto .ivu-form .ivu-form-item-label{
+    font-size: 14px;
+
+}
+#BankAuto .ivu-form-item-content{
+    font-size: 14px;
+}
+
+#BankAuto .hd-text{
+    font-weight: bold;
+    margin-left:12%;
+}
+
+
+.red{
+    color:red;
+}
+
+
+/*  ocr  */
+/*  ui 美化   */
+.ui-orc{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.ui-orc dl{
+    display:inline-block;
+    width:40%;
+
+
+}
+.ui-orc dl{
+    width:49%;
+    padding:0;
+}
+.ui-orc dt{
+    width:60px;
+    text-align:left;
+    padding:0;
+    color:#00A758;
+    padding: 3px 0 0 0;
+}
+
+.componentFormOcr dd{
+    width:auto;
+    padding:0;
+}
+.ui-orc dl input[type="text"]{
+    height:22px;
+    width:60%;
+    padding:5px;
+    border:1px solid#00A758;
+    border-radius:5px;
+
+}
+
+.ml35{
+    margin-left:60px;
+}
+
+.radio{
+    border:none;
+    background:none;
+}
+.ui-orc dl .orc-inp-name{
+    width:157px;    
+}
+
+
+.componentFormOcr dt, .componentFormOcr dd {
+    float: left;
+}
+
+.file--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 460px;
+    margin: auto;
+     margin-bottom: 30px;
+}
+.fileinput-item{
+    position: relative;
+    overflow: hidden;
+    flex: 0 0 100px;
+}
+.fileinput-item img {
+    display: block;
+    width: 100%;
+}
+
+.fileinput-item input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+    opacity: 0;
+}
+.ml20{
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+#cwModel .newBorder{
+    border:1px solid red;
+    border-radius: 3px;
+}
+
+.ivu-form-item-error-tip{
+    position: inherit;
+}
+#ocr-modal{
+    width: 520px;top:30vh;position:absolute; left: 50%;margin-left: -252px; z-index: 15000;
+}
+
+
+
+.ocr-info-list {
+    font-size: 14px;
+}
+.ocr-info-list label{
+    width: 120px;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ocr-info-list .text {
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ocr-tips {
+    margin-top: 10px;
+    font-size: 12px;
+    color: red;
+}
+.newBorder{
+    border:1px solid red;
+    border-radius: 3px;
+}
+
+#accont-box .ivu-form .ivu-form-item-label{
+    text-align: left;
+    font-size:13px;
+}
+
+#accont-box .ivu-input{
+    
+}
+#accont-box .ivu-select{
+    width: 76%;
+}
+#accont-box .ivu-input-wrapper{
+    width: 76%; 
+}
+.ivu-modal-wrap *{
+    font-size:13px;
+}
+#accont-box .ivu-card-bordered{
+    margin-left:6%;
+}
+#accont-box .ivu-form-item{
+    margin-bottom: 15px;
+}
+
+.ivu-switch-checked{
+    border-color:#00A758;
+    background: #00A758;
+}
+
+#BankAuto .ivu-form .ivu-form-item-label{
+    text-align: left;
+
+}
+#BankAuto .ivu-form-item{
+    margin-bottom:0;
+}
+.pop-logo{
+    height: 35px;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.pop-logo img{
+    height:100%;
+}
+ 
+.pop-tit2{
+    color:#00A758;
+    font-size:20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#cwModel .ivu-form-item-label{
+    text-align: left;
+    font-size:13px;
+}
+.ivu-radio-checked .ivu-radio-inner{
+    border-color:#00A758;
+}
+.ivu-radio-inner:after{
+    background-color:#00A758;
+}
+.ivu-radio-checked:hover .ivu-radio-inner{
+    border-color: #00A758;
+}
+.ivu-checkbox-checked:hover .ivu-checkbox-inner{
+    background-color:#00A758;
+}
+.ivu-checkbox-checked .ivu-checkbox-inner {
+    border-color: #00A758;
+    background-color: #00A758;
+}
+
+.newBorder .ivu-select-visible .newBorder .ivu-select-selection{
+    border:none;
+}
+
+#zoomPhoto .ivu-modal-footer{
+    padding:0;
+    border:none;
+}
+
+#recoModal .btn-icon{
+    font-size:23px;
+    color:#00A758;
+}
+
+#recoModal .del{
+    margin-right:20px;
+}
+
+#recoModal .search{
+    margin-left:20px; 
+}
+
+
+#recoModal .btn-box{
+    
+    margin:auto;
+    width: 200px;
+    margin-top:15px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.ivu-btn-primary.active, .ivu-btn-primary:active{
+    background-color:#00A758;
+    border-color:#00A758;
+}
+
+.ivu-btn-primary.visited, .ivu-btn-primary:visited{
+    background-color:#00A758;
+    border-color:#00A758;
+}
+
+.ivu-btn-primary:hover{
+    background-color:#00A758;
+    border-color:#00A758;
+}
+
+
+.tips-p-box{
+    margin-bottom: 15px;
+}
+.tips-p-box p{
+    color:#00A758;
+    margin-bottom: 1px;
+}
+
+#cwModel .ivu-input-wrapper{
+    width:87%;
+}
+#cwModel .ivu-date-picker .ivu-input-wrapper{
+    width:100%;
+}
+.hidden{
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+

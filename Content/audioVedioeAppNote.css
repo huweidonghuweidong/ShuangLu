@@ -1,0 +1,809 @@
+.abc{
+    -webkit-overflow-scrolling:touch;
+    overflow: auto;   
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 20px;
+    background: #efefef;
+    
+}
+::-webkit-scrollbar-track{
+    /* background: #3399ff;
+    height: 10px;
+    width: 3px; */
+   
+}
+
+.ivu-modal-close .ivu-icon-ios-close{
+	font-size:35px;
+}
+
+canvas{
+	width: 100%;
+}
+
+/* ::-webkit-scrollbar-thumb:hover{
+    -webkit-box-shadow:inset 0 0 5px rgba(0,0,0,0.2);
+    background: darkgoldenrod;
+} */
+
+html,body{
+    font-size:14px;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+
+.ivu-form .ivu-form-item-label{
+	text-align: left;
+	font-size:14px;
+}
+
+.ivu-checkbox-wrapper{
+	font-size: 14px;
+}
+.ivu-checkbox{
+	margin-right:5px;
+}
+
+.ivu-btn{
+	background: #00A758;
+    color: #fff;
+    padding:10px 30px;
+}
+
+.ivu-btn[disabled]{
+	color: #c5c8ce;
+    background-color: #f7f7f7;
+    border-color: #dcdee2;
+}
+
+.div.background-loading{
+	
+}
+
+.ivu-form-item{
+	margin-bottom: 40px;
+}
+
+.ivu-form-item-error-tip{
+	padding-top: 10px;
+	font-size:14px;
+	color:red;
+}
+
+.ivu-input{
+	font-size:14px;
+}
+
+
+#signEnd .num{
+	font-size:14px;
+	margin-left:5%;
+	margin-bottom: 40px;
+	margin-top:10px;
+
+}
+div.loading-indicator {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+   background: url(../Content/images/icon_loading.gif) no-repeat center center;
+    z-index: 100000;
+}
+
+
+.globalPop{
+    
+    position: absolute;
+    left:50%;
+    margin-left:-460px;
+    top:80px;
+    border:1px solid #dcdcdc;
+    width: 80%;
+    /* margin: auto;
+    margin-top:80px; */
+    box-shadow: 3px 3px 3px #dcdcdc;
+    z-index: 99999;
+    background: #fff;
+}
+
+.globalPop .hd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    background: #00A758;
+    height: 50px;
+    font-size:18px;
+
+}
+.globalPop .bd{
+    padding:20px;
+    height: 450px;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+.globalPop dl{
+    margin-bottom: 30px;
+}
+.globalPop dt{
+    font-weight: bold;
+}
+
+.globalPop .close{
+    right:30px;
+    top:10px;
+    position: absolute;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pdf{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+.pdf-buttom{
+    color: #fff;
+    position: absolute;
+    right: 220px;
+    top: 10PX;
+    background: green;
+}
+
+.pdf-close{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 2;
+    width: 100%;
+    height:50px;
+    background:#fff;
+}
+
+.layer-body{
+    position: relative;
+    height: 100%;
+    overflow: auto;
+    margin-top:80px;
+    margin-bottom: 10px;
+}
+
+.stepBtnZone .stepBtn{
+    padding:5px;
+}
+.stepBtnZone .cur{
+    color:blue;
+}
+
+.ivu-tabs-nav{
+   
+   
+}
+
+.ivu-tabs-bar{
+    width: 90%;
+   margin: auto;
+    margin-bottom: 0;
+}
+
+
+.demo-tabs-style1 > .ivu-tabs-card > .ivu-tabs-content {
+        border:1px solid #dcdcdc;
+        border-top:none;
+        width: 96%;
+        margin: 0 auto;
+        background: #fff;
+        height: 350px;
+        overflow: scroll;
+    }
+
+    .demo-tabs-style1 > .ivu-tabs-card > .ivu-tabs-content > .ivu-tabs-tabpane {
+        background: #fff;
+        padding:20px;
+     
+    }
+
+    .demo-tabs-style1 > .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab {
+        border-color: transparent;
+    }
+
+    .demo-tabs-style1 > .ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active {
+        border-color: #fff;
+    }
+    .demo-tabs-style2 > .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab{
+        border-radius: 0;
+        background: #fff;
+    }
+    .demo-tabs-style2 > .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active{
+        border-top: 1px solid #3399ff;
+    }
+    .demo-tabs-style2 > .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active:before{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        background: #3399ff;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .stepItem p{
+        margin-bottom: 20px;
+    }
+
+.step6{
+    display: flex;
+}
+
+.step6 .info{
+    width: 70%;
+    border-right:none;
+    padding:20px;
+    height: 320px;
+    overflow: auto;
+}
+
+.step6 .list{
+    width: 30%;
+    padding:20px;
+    height: 320px;
+    overflow: auto;
+    
+}
+
+.listCon .listItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.listCon .leb{
+    display: inline-block;
+    width: 100px;
+}
+
+
+
+.step-zone{
+       
+}
+.step-button{
+    margin-bottom: 20px;
+    position: fixed;
+    height: 80px;
+    top: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.qsqr{
+	display: inline-flex;
+    align-items: center;
+    border: 1px solid #ddd;
+     padding: 8px 13px;
+    border-left: none;
+    font-weight: bold;
+    font-size: 15px;
+    /* flex-grow: 0; */
+    /* flex-shrink: 0; */
+    margin-left: -3px;
+    
+}
+
+.step-button .qsqr-cur{
+	
+   
+    background: #00A758;
+    color:#fff;
+}
+
+.node-list{
+    display: inline-block;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.node-list li{
+    display: inline-flex;
+    align-items: center;
+    border:1px solid #ddd;
+    padding:8px 15px;
+    background: #fff;
+    border-left:none;
+    font-weight: bold;
+    font-size:15px;
+    
+}
+.node-list li.cur{
+    background: #00A758;
+    color:#fff;
+}
+
+.node-list li:first-child{
+    border-left:1px solid #ddd;
+}
+.step-content{
+    padding: 20px;
+    background: #fff;
+}
+
+
+
+
+.item-list{
+    /* width: 70%;
+    margin-right:90px; */
+}
+.item-list dt{
+    font-weight:bold;
+    color:#333;
+    margin-bottom: 5px;
+}
+
+.item-list dl{
+	position: relative;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.item-list dl.cur{
+    background: #efef;
+
+}
+.item-list dt.cur{
+    color:#00A758;
+}
+.item-list dd{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.item-list dl .pop{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 2;
+	background: #fff;
+	opacity: 0;
+}
+
+.item-list .text-con{
+    margin-right: 50px;
+}
+
+.item-list dd p{
+    margin-bottom: 10px;
+}
+
+.item-list p.tbr{
+	font-weight: bold;
+	margin-top:15px;
+}
+
+
+.item-tips-con{
+    /*background: #efefef;*/
+    margin-bottom: 30px;
+    /*padding:10px 15px;*/
+    width: 260px;;
+    flex-shrink: 0;
+	color:red;
+}
+
+.item-tips-tit{
+    font-size:13px;
+    margin-bottom: 3px;
+}
+
+
+.btn-zone{
+    display: flex;
+    justify-content:space-between;
+   	position: relative;
+    height: 100px;
+}
+
+.btn-zone-play{
+    position: relative;
+    margin-left:30px;
+}
+.btn-zone-pop{
+	position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    opacity: 0.5;
+}
+
+.btn-zone-action{
+    margin-right:30px;
+}
+.btn-zone-play-pop{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 340px;
+    height: 86px;
+    background: #fff;
+    opacity: 0.5;
+}
+
+.btn-zone .ivu-btn{
+    /*margin:0 5px;
+    padding: 5px 25px;*/
+    
+    margin:0 10px;
+    padding: 10px 30px;
+}
+
+.btn-zone-play .ivu-btn[disabled]{
+    color: #c5c8ce;
+    background-color: #f7f7f7;
+    border-color: #dcdee2;
+}
+
+.btn-zone-play .ivu-btn{
+    background: #00A758;
+    color:#fff;
+}
+
+.btn-zone-action .ivu-btn{
+    background: #00A758;
+    color:#fff;
+}
+
+.btn-zone-action .ivu-btn[disabled]{
+	color: #c5c8ce;
+    background-color: #f7f7f7;
+    border-color: #dcdee2;
+}
+
+/*  风险提示    */
+.doc-list li{
+    position: relative;
+    display: inline-block;
+}
+
+
+/* pdf展示  */
+.pdf-container-box{
+	position: absolute;
+    z-index: -1;
+    top: 60px;
+    left: 0px;
+    width: 100vw;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.pdf-bttton-zone{
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 80px;
+	background: #fff;
+	z-index: 9999;
+}
+
+
+.navModal .ivu-modal-header{
+	    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #00A758;
+    height: 50px;
+    font-size: 18px;
+}
+
+.navModal .ivu-icon {
+	display: none;
+}
+
+.navModal .ivu-modal-header p span{
+	font-size: 18px;
+	color:#fff;
+}
+
+
+.navModal .bd{
+	    padding: 20px;
+    height: 515px;
+    padding-bottom: 0;
+    -webkit-overflow-scrolling:touch;
+/*    overflow: auto;   */
+
+    margin-bottom: 15px;
+    
+}
+.navModal dl {
+	    margin-bottom: 30px;
+}
+.navModal dt{
+	    font-weight: bold;
+}
+#navModal dd{
+	
+}
+
+.navModal .close{
+	  right: 30px;
+    top: 10px;
+    position: absolute;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.pdf-bttton-zone .ivu-btn{
+	    background: #00A758;
+   	 	color: #fff;
+    
+}
+
+
+
+.pdf-bttton-zone .btn1{
+	position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+
+
+.pdf-bttton-zone .btn2{
+	 position: absolute;
+	 right:50px;
+	 top:20px;
+}
+
+.pdf-bttton-zone .btn2[disabled]{
+	color: #c5c8ce;
+    background-color: #f7f7f7;
+    border-color: #dcdee2;
+}
+
+
+.pdf-bttton-zone .btn-tip{
+	position: absolute;
+    top: 30px;
+    left: 160px;
+    font-size: 14px;
+}
+
+
+/*  签署确认   */
+.signStep{
+	padding: 20px;
+}
+
+.signStep .sign-list{
+	display: flex;
+	margin-top:30px;
+	margin-right:10px;
+}
+.signStep .title{
+	
+}
+
+
+.signStep .next{
+	width: 90px;
+	height: 40px;
+}
+
+.signStep .ivu-btn[disabled]{
+	color: #c5c8ce;
+    background-color: #f7f7f7;
+    border-color: #dcdee2;
+}
+
+
+.sign-tips{
+	/*position: absolute; 
+	
+	left:0;
+	bottom: 20px;*/
+	width: 100%;
+	padding: 15px;
+	background: #efefef;
+	margin-top:0px;
+	margin-bottom: 30px;
+	font-size:14px;
+	color:red;
+	
+}
+
+.sign-list .ivu-radio-group-vertical .ivu-radio-wrapper{
+	font-size:14px;
+}
+
+.sign-list .leb{
+	margin-right:20px;
+	margin-top:6px;
+}
+
+
+.step-content .doc-label{
+	color:#333;
+	margin-right:10px;
+}
+
+
+.sign-tips .tip-list li{
+	margin-top:10px;
+} 
+
+
+.hand{
+    position: absolute;
+    /* left:85px; */
+    top:10px;
+    display: inline-block;
+    width: 30px;
+    height: 28px;
+    background: url(../Content/images/hand.jpeg) no-repeat center center;
+    background-size:contain;
+    background-color: none; 
+    border:none;
+
+    /*animation: move 1.2s linear infinite;*/
+}
+
+.PROD_PRV .hand{
+    left:90px;
+    animation: move 1.2s linear infinite;
+}
+
+.PROD_LBT .hand{
+	left:90px;
+    animation: move 1.2s linear infinite;
+}
+.ESCP_CLA .hand{
+    left:105px;
+    animation: move2 1.2s linear infinite;
+}
+
+.CASEAPP03SH .hand{
+    left:105px;
+     animation: move2 1.2s linear infinite;
+}
+
+.PROD_DESC .hand{
+    left:105px;
+     animation: move2 1.2s linear infinite;
+}
+
+.ApplicationAll .hand{
+    left:75px;
+    animation: move4 1.2s linear infinite;
+}
+
+
+.RCISQT01 .hand{
+    left:190px;
+    animation: move3 1.2s linear infinite;
+}
+
+@keyframes move{
+    0%{
+        left:90px;
+        top:10px; 
+    }
+
+    50%{
+        left:85px;
+        top:7px;
+    }
+
+    100%{
+        left:90px;
+        top:10px;
+    }
+}
+
+
+
+@keyframes move2{
+    0%{
+        left:105x;
+        top:10px;
+    }
+
+    50%{
+        left:100px;
+        top:7px;
+    }
+
+    100%{
+        left:105px;
+        top:10px;
+    }
+}
+
+
+@keyframes move3{
+    0%{
+        left:190px;
+        top:10px;
+    }
+
+    50%{
+        left:185px;
+        top:7px;
+    }
+
+    100%{
+        left:190px;
+        top:10px;
+    }
+}
+
+
+
+@keyframes move4{
+    0%{
+        left:75px;
+        top:10px;
+    }
+
+    50%{
+        left:70px;
+        top:7px;
+    }
+
+    100%{
+        left:75px;
+        top:10px;
+    }
+}
+
+
+
+/*  M3指引   */
+#navModal2 {
+		
+}
+
+#navModal2 dl{
+	width: 80%;
+    margin: auto;
+    font-size: 16px;
+}
+#navModal2 dd{
+	margin-top:10px;
+}
